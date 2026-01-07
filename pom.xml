@@ -15,14 +15,11 @@
   <packaging>jar</packaging>
   <name>Rimfrost Common definitions</name>
 
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-    <repository>
-      <id>github--Forsakringskassan--repository</id>
-      <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
-    </repository>
-  </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github-forsakringskassan</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
+        </repository>
+    </distributionManagement>
 </project>
