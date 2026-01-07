@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 jobs:
   bundle:
-    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-quarkus-release.yaml@main
+    uses: Forsakringskassan/.github/.github/workflows/bundle-maven-release.yaml@main
     secrets:
       PACKAGES_RW_ACTOR: ${{ secrets.PACKAGES_RW_ACTOR }}
       PACKAGES_RW_TOKEN: ${{ secrets.PACKAGES_RW_TOKEN }}
