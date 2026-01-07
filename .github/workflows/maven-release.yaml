@@ -32,4 +32,3 @@ jobs:
           PACKAGES_RW_ACTOR: ${{ secrets.PACKAGES_RW_ACTOR }}
           PACKAGES_RW_TOKEN: ${{ secrets.PACKAGES_RW_TOKEN }}
         run: mvn -B -DskipTests deploy
-
