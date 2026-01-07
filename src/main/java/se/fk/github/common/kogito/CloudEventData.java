@@ -1,4 +1,4 @@
-package se.fk.github.kogito;
+package se.fk.github.common.kogito;
 
 import java.util.UUID;
 import org.immutables.value.Value;

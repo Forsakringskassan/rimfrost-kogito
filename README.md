@@ -1,3 +1,3 @@
-# rimfrost-kogito
+# rimfrost-common
 
-Gemensamma definitioner för kogito-integrationer in Rimfrost. 
+Gemensamma definitioner för Rimfrost. 
