@@ -20,11 +20,15 @@
       <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
     </repository>
   </distributionManagement>
-  <repositories>
-    <repository>
-      <id>github--Forsakringskassan--repository</id>
-      <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
-    </repository>
-  </repositories>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>github--Forsakringskassan--repository</id>
+            <url>https://maven.pkg.github.com/Forsakringskassan/repository</url>
+        </repository>
+    </repositories>
 
 </project>
