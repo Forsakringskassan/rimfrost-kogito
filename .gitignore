@@ -27,6 +27,7 @@ nb-configuration.xml
 
 /build/
 /target/
+src/generated-source
 
 # Plugin directory
 /.quarkus/cli/plugins/
