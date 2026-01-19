@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.0.4 (2026-01-19)
+
+### Bug Fixes
+
+-  Flytta RegelRequestDeserializer till common ([f38aa](https://github.com/Forsakringskassan/rimfrost-common/commit/f38aad7f02d8a43) Ulf Slunga)  
+
 ## 0.0.3 (2026-01-19)
 
 ### Bug Fixes
