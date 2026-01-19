@@ -17,4 +17,3 @@ jobs:
 
   call-pnr-scan:
     uses: Forsakringskassan/.github/.github/workflows/pnr-scanner.yaml@main
-
