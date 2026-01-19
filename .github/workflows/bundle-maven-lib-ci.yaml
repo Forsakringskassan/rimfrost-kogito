@@ -1,12 +1,6 @@
 name: Bundle Maven Lib CI
 
-on:
-  workflow_call:
-    secrets:
-      PACKAGES_RW_ACTOR:
-        required: true
-      PACKAGES_RW_TOKEN:
-        required: true
+on: [workflow_dispatch, workflow_call, push, pull_request]
 
 jobs:
   call-maven-ci:
@@ -17,4 +11,3 @@ jobs:
 
   call-pnr-scan:
     uses: Forsakringskassan/.github/.github/workflows/pnr-scanner.yaml@main
-
