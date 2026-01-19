@@ -2,6 +2,91 @@
 
 Changelog of rimfrost-common.
 
+## 0.0.3 (2026-01-19)
+
+### Bug Fixes
+
+-  switch to gradle ([d5037](https://github.com/Forsakringskassan/rimfrost-common/commit/d503709ea538b48) Ulf Slunga)  
+-  switch to gradle ([03b2d](https://github.com/Forsakringskassan/rimfrost-common/commit/03b2d08da4de697) Ulf Slunga)  
+
+### Other changes
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[3b586](https://github.com/Forsakringskassan/rimfrost-common/commit/3b586cebe462e76) Ulf Slunga *2026-01-19 14:04:58*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[4dbce](https://github.com/Forsakringskassan/rimfrost-common/commit/4dbce05b3fb8aea) Ulf Slunga *2026-01-19 14:01:25*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[a4956](https://github.com/Forsakringskassan/rimfrost-common/commit/a4956b79bcd9593) Ulf Slunga *2026-01-19 13:58:46*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[24b80](https://github.com/Forsakringskassan/rimfrost-common/commit/24b809a074ae3a0) Ulf Slunga *2026-01-19 13:50:49*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[ab012](https://github.com/Forsakringskassan/rimfrost-common/commit/ab0124cd25ebcb3) Ulf Slunga *2026-01-19 13:40:30*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[444cb](https://github.com/Forsakringskassan/rimfrost-common/commit/444cb7bec96732b) Ulf Slunga *2026-01-19 13:37:24*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[6ce17](https://github.com/Forsakringskassan/rimfrost-common/commit/6ce17348be36a63) Ulf Slunga *2026-01-19 13:36:38*
+
+**Använd bundle-maven-lib workflows ist för quarkus-anpassade**
+
+
+[c92f3](https://github.com/Forsakringskassan/rimfrost-common/commit/c92f3a2d5528616) Ulf Slunga *2026-01-19 13:35:08*
+
+**package renaming to rimfrost.regel.common**
+
+
+[9cff9](https://github.com/Forsakringskassan/rimfrost-common/commit/9cff9073f56d5ed) Ulf Slunga *2026-01-19 13:21:52*
+
+**maven workflows instead of gradle**
+
+
+[77dfb](https://github.com/Forsakringskassan/rimfrost-common/commit/77dfbde17757919) Ulf Slunga *2026-01-19 12:53:33*
+
+**renaming**
+
+
+[68256](https://github.com/Forsakringskassan/rimfrost-common/commit/6825611af6702b3) Ulf Slunga *2026-01-19 12:48:48*
+
+**Lagt till comm hantering av regel-init**
+
+
+[84d63](https://github.com/Forsakringskassan/rimfrost-common/commit/84d637514655e33) Ulf Slunga *2026-01-19 11:07:26*
+
+**Update maven-release.yaml**
+
+
+[d06fc](https://github.com/Forsakringskassan/rimfrost-common/commit/d06fcc170b2c56f) Ulf Slunga *2026-01-07 13:34:37*
+
+**Update maven-release.yaml**
+
+
+[f480a](https://github.com/Forsakringskassan/rimfrost-common/commit/f480a25291d35f9) Ulf Slunga *2026-01-07 13:18:30*
+
+**Update maven-release.yaml**
+
+
+[dadc7](https://github.com/Forsakringskassan/rimfrost-common/commit/dadc792eea7309e) Ulf Slunga *2026-01-07 13:07:33*
+
+
 ## 0.0.2 (2026-01-07)
 
 ### Bug Fixes
