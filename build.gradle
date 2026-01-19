@@ -1,9 +1,0 @@
-plugins {
-    id "se.fk.gradle.bundle-jar" version "1.18.1"
-}
-
-allprojects {
-    javaExtension {
-        javaVersion = 21
-    }
-}
