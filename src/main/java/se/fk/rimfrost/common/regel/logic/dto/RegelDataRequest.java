@@ -1,11 +1,10 @@
-package se.fk.github.common.regel.logic.dto;
+package se.fk.rimfrost.common.regel.logic.dto;
 
 import org.immutables.value.Value;
-
 import java.util.UUID;
 
 @Value.Immutable
-public interface CreateRegelDataRequest
+public interface RegelDataRequest
 {
    UUID id();
 

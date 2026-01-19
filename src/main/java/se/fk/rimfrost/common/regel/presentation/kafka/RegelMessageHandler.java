@@ -1,10 +1,9 @@
-package se.fk.github.common.regel.presentation.kafka;
+package se.fk.rimfrost.common.regel.presentation.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 import se.fk.github.logging.callerinfo.model.MDCKeys;
-
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import se.fk.rimfrost.regel.common.RegelRequestMessagePayload;
@@ -36,8 +35,8 @@ public class RegelMessageHandler
                payload.getData().getKundbehovsflodeId());
 
          // Map to service request and delegate
-         var request = mapper.toCreateRegelDataRequest(payload);
-         regelRequestHandlerInterface.createRegel(request);
+         var request = mapper.toRegelDataRequest(payload);
+         regelRequestHandlerInterface.handle(request);
 
       }
       finally

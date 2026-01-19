@@ -1,18 +1,17 @@
-package se.fk.github.common.regel.presentation.kafka;
+package se.fk.rimfrost.common.regel.presentation.kafka;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import se.fk.github.common.regel.logic.dto.CreateRegelDataRequest;
+import se.fk.rimfrost.common.regel.logic.dto.ImmutableRegelDataRequest;
+import se.fk.rimfrost.common.regel.logic.dto.RegelDataRequest;
 import se.fk.rimfrost.regel.common.RegelRequestMessagePayload;
-import se.fk.github.common.regel.logic.dto.ImmutableCreateRegelDataRequest;
-
 import java.util.UUID;
 
 @ApplicationScoped
 public class RegelKafkaMapper
 {
-   public CreateRegelDataRequest toCreateRegelDataRequest(RegelRequestMessagePayload rtfRequest)
+   public RegelDataRequest toRegelDataRequest(RegelRequestMessagePayload rtfRequest)
    {
-      return ImmutableCreateRegelDataRequest.builder()
+      return ImmutableRegelDataRequest.builder()
             .id(UUID.fromString(rtfRequest.getId()))
             .kogitorootprociid(UUID.fromString(rtfRequest.getKogitorootprociid()))
             .kogitorootprocid(rtfRequest.getKogitorootprocid())
