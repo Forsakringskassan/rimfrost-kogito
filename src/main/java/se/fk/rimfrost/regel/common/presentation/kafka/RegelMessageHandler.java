@@ -1,4 +1,4 @@
-package se.fk.rimfrost.common.regel.presentation.kafka;
+package se.fk.rimfrost.regel.common.presentation.kafka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

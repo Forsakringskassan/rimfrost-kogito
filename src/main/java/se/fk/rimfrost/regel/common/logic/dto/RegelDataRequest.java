@@ -1,4 +1,4 @@
-package se.fk.rimfrost.common.regel.logic.dto;
+package se.fk.rimfrost.regel.common.logic.dto;
 
 import org.immutables.value.Value;
 import java.util.UUID;

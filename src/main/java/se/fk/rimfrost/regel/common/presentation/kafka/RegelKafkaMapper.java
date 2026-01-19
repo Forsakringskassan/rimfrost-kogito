@@ -1,9 +1,9 @@
-package se.fk.rimfrost.common.regel.presentation.kafka;
+package se.fk.rimfrost.regel.common.presentation.kafka;
 
 import jakarta.enterprise.context.ApplicationScoped;
-import se.fk.rimfrost.common.regel.logic.dto.ImmutableRegelDataRequest;
-import se.fk.rimfrost.common.regel.logic.dto.RegelDataRequest;
 import se.fk.rimfrost.regel.common.RegelRequestMessagePayload;
+import se.fk.rimfrost.regel.common.logic.dto.ImmutableRegelDataRequest;
+import se.fk.rimfrost.regel.common.logic.dto.RegelDataRequest;
 import java.util.UUID;
 
 @ApplicationScoped
