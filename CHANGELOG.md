@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.0.5 (2026-01-20)
+
+### Bug Fixes
+
+-  skapa re-usable producer för response på regel-initiering ([78c43](https://github.com/Forsakringskassan/rimfrost-common/commit/78c43b2f314774e) Ulf Slunga)  
+
 ## 0.0.4 (2026-01-19)
 
 ### Bug Fixes
