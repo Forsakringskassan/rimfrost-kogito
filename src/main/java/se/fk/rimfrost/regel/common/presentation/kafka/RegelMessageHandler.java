@@ -6,6 +6,8 @@ import org.slf4j.MDC;
 import se.fk.github.logging.callerinfo.model.MDCKeys;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import se.fk.rimfrost.OperativtUppgiftslagerResponseMessage;
+import se.fk.rimfrost.OperativtUppgiftslagerStatusMessage;
 import se.fk.rimfrost.regel.common.RegelRequestMessagePayload;
 
 @ApplicationScoped
@@ -19,6 +21,9 @@ public class RegelMessageHandler
 
    @Inject
    RegelRequestHandlerInterface regelRequestHandlerInterface;
+
+   @Inject
+   OulHandlerInterface oulHandlerInterface;
 
    /**
     * Handle a received RegelRequestMessagePayload
@@ -36,7 +41,7 @@ public class RegelMessageHandler
 
          // Map to service request and delegate
          var request = mapper.toRegelDataRequest(payload);
-         regelRequestHandlerInterface.handle(request);
+         regelRequestHandlerInterface.handleRegelRequest(request);
 
       }
       finally
@@ -44,5 +49,21 @@ public class RegelMessageHandler
          // Always clear MDC to avoid leaking to other threads
          MDC.clear();
       }
+   }
+
+   public void consumeOulResponse(OperativtUppgiftslagerResponseMessage oulResponseMessage)
+   {
+      LOGGER.info("OperativtUppgiftslagerResponseMessage received with KundbehovsflodeId: "
+            + oulResponseMessage.getKundbehovsflodeId());
+      var oulResponse = mapper.toOulResponse(oulResponseMessage);
+      oulHandlerInterface.handleOulResponse(oulResponse);
+   }
+
+   public void consumeOulStatus(OperativtUppgiftslagerStatusMessage oulStatusMessage)
+   {
+      LOGGER.info(
+            "OperativtUppgiftslagerStatusMessage received with KundbehovsflodeId: " + oulStatusMessage.getKundbehovsflodeId());
+      var oulStatus = mapper.toOulStatus(oulStatusMessage);
+      oulHandlerInterface.handleOulStatus(oulStatus);
    }
 }
