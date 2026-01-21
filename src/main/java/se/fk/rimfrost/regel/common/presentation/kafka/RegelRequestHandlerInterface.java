@@ -4,5 +4,5 @@ import se.fk.rimfrost.regel.common.logic.dto.RegelDataRequest;
 
 public interface RegelRequestHandlerInterface
 {
-   void handle(RegelDataRequest request);
+   void handleRegelRequest(RegelDataRequest request);
 }
