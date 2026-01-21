@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.0.6 (2026-01-21)
+
+### Bug Fixes
+
+-  stöd för OUL ([8c183](https://github.com/Forsakringskassan/rimfrost-common/commit/8c183f853d173ee) Ulf Slunga)  
+
 ## 0.0.5 (2026-01-20)
 
 ### Bug Fixes
