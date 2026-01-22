@@ -14,7 +14,7 @@ public class RegelKafkaMapper
    {
       var data = new RegelResponseMessagePayloadData();
       data.setKundbehovsflodeId(regelResponse.kundbehovsflodeId().toString());
-      data.setRattTillForsakring(regelResponse.rattTillForsakring() ? RattTillForsakring.JA : RattTillForsakring.NEJ);
+      data.setRattTillForsakring(regelResponse.rattTillForsakring());
 
       var response = new RegelResponseMessagePayload();
       response.setId(regelResponse.id().toString());
