@@ -2,7 +2,7 @@ package se.fk.rimfrost.regel.common.integration.kafka.dto;
 
 import org.immutables.value.Value;
 import java.util.UUID;
-import se.fk.rimfrost.regel.common.RattTillForsakring;
+import se.fk.rimfrost.regel.common.Utfall;
 
 @Value.Immutable
 public interface RegelResponse
@@ -26,6 +26,6 @@ public interface RegelResponse
 
    String kogitoprocversion();
 
-   RattTillForsakring rattTillForsakring();
+   Utfall utfall();
 
 }
