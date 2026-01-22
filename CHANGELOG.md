@@ -2,6 +2,16 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.0 (2026-01-22)
+
+### Features
+
+-  Add support for Utredning option from RattTillForsakring ([d34db](https://github.com/Forsakringskassan/rimfrost-common/commit/d34db957a11f1db) Lars Persson)  
+
+### Bug Fixes
+
+-  Rename RattTillForsakring to Utfall to match asyncapi changes ([49a3f](https://github.com/Forsakringskassan/rimfrost-common/commit/49a3f86735a7848) Lars Persson)  
+
 ## 0.0.6 (2026-01-21)
 
 ### Bug Fixes
