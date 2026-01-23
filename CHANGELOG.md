@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.1 (2026-01-23)
+
+### Bug Fixes
+
+-  updated config with new properties ([a053a](https://github.com/Forsakringskassan/rimfrost-common/commit/a053a88ae2ef304) Nils Elveros)  
+
 ## 0.1.0 (2026-01-22)
 
 ### Features
