@@ -2,6 +2,13 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.2 (2026-01-27)
+
+### Bug Fixes
+
+-  add type in toRegelResponse() ([240d7](https://github.com/Forsakringskassan/rimfrost-common/commit/240d7784bbff412) Nils Elveros)  
+-  add type to cloudevenet - needed for kogito to route ([3a2d4](https://github.com/Forsakringskassan/rimfrost-common/commit/3a2d4f2d7df2623) Nils Elveros)  
+
 ## 0.1.1 (2026-01-23)
 
 ### Bug Fixes
