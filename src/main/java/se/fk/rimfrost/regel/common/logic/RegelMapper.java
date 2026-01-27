@@ -23,6 +23,7 @@ public class RegelMapper
             .kogitoprocinstanceid(cloudevent.kogitoprocinstanceid())
             .kogitoprocist(cloudevent.kogitoprocist())
             .kogitoprocversion(cloudevent.kogitoprocversion())
+            .type(cloudevent.type())
             .utfall(utfall)
             .build();
    }

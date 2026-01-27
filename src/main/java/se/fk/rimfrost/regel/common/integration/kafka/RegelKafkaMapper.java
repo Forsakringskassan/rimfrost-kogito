@@ -30,6 +30,7 @@ public class RegelKafkaMapper
       response.setSource(source);
       response.setType("regel-responses");
       response.setKogitoproctype(KogitoProcType.BPMN);
+      response.setType(regelResponse.type());
       response.setData(data);
 
       return response;
