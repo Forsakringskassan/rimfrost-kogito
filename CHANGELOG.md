@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.3 (2026-01-27)
+
+### Bug Fixes
+
+-  add type in RegelDataRequest ([d73cd](https://github.com/Forsakringskassan/rimfrost-common/commit/d73cd993f353e7f) Nils Elveros)  
+
 ## 0.1.2 (2026-01-27)
 
 ### Bug Fixes
