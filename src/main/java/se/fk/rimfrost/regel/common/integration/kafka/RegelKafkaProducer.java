@@ -34,9 +34,9 @@ public class RegelKafkaProducer
    @OnOverflow(value = OnOverflow.Strategy.BUFFER, bufferSize = 1024)
    Emitter<OperativtUppgiftslagerStatusMessage> oulStatusEmitter;
 
-   public void sendRegelResponse(RegelResponse regelResponse, String source)
+   public void sendRegelResponse(RegelResponse regelResponse)
    {
-      var response = mapper.toRegelResponseMessagePayload(regelResponse, source);
+      var response = mapper.toRegelResponseMessagePayload(regelResponse);
       regelResponseEmitter.send(response);
    }
 

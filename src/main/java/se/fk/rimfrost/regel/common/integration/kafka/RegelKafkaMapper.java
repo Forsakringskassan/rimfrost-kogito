@@ -10,7 +10,7 @@ import se.fk.rimfrost.regel.common.integration.kafka.dto.RegelResponse;
 public class RegelKafkaMapper
 {
 
-   public RegelResponseMessagePayload toRegelResponseMessagePayload(RegelResponse regelResponse, String source)
+   public RegelResponseMessagePayload toRegelResponseMessagePayload(RegelResponse regelResponse)
    {
       var data = new RegelResponseMessagePayloadData();
       data.setKundbehovsflodeId(regelResponse.kundbehovsflodeId().toString());
@@ -26,11 +26,10 @@ public class RegelKafkaMapper
       response.setKogitoprocrefid(regelResponse.kogitoprocinstanceid().toString());
       response.setKogitoprocist(regelResponse.kogitoprocist());
       response.setKogitoprocversion(regelResponse.kogitoprocversion());
-      response.setSpecversion(SpecVersion.NUMBER_1_DOT_0);
-      response.setSource(source);
-      response.setType("regel-responses");
-      response.setKogitoproctype(KogitoProcType.BPMN);
+      response.setSource(regelResponse.source());
       response.setType(regelResponse.type());
+      response.setSpecversion(SpecVersion.NUMBER_1_DOT_0);
+      response.setKogitoproctype(KogitoProcType.BPMN);
       response.setData(data);
 
       return response;
