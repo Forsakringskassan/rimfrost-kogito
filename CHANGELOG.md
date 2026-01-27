@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.5 (2026-01-27)
+
+### Bug Fixes
+
+-  add source to cloudevent ([c98ba](https://github.com/Forsakringskassan/rimfrost-common/commit/c98ba7040b4b60b) Nils Elveros)  
+
 ## 0.1.4 (2026-01-27)
 
 ### Bug Fixes
