@@ -2,6 +2,12 @@
 
 Changelog of rimfrost-common.
 
+## 0.1.4 (2026-01-27)
+
+### Bug Fixes
+
+-  source in RegelResponse instead of its own param ([9678e](https://github.com/Forsakringskassan/rimfrost-common/commit/9678ef3a62a8b48) Nils Elveros)  
+
 ## 0.1.3 (2026-01-27)
 
 ### Bug Fixes
